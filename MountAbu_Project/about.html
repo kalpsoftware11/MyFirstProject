@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Kalp Developer">
+	<meta name="description" content="Hey there! I am Kalp and this page is for contact and other things">
+	<meta property="og:title" content="Mount Abu Project | Kalp Developer">
+	<title>About Me</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+	<h1>Hey there! I am Kalp.</h1>
+
+	<hr>
+
+	<h3>Hello There! Download some my products which was included in main page</h3>
+	<ul>
+		<li><a href="asset/img/mountabu_1.jpg" download>Download first img</a></li>
+		<li><a href="asset/img/mountabu_2.jpg" download>Download Sec img</a></li>
+		<li><a href="asset/img/mountabu_3.jpg" download>Download Third Img</a></li>
+	</ul>
+
+	<hr>
+	<h3>Contact Me:</h3>
+	<ul>
+		<li>Contact at <a href="mailto:example@gmail.com">My Gmail</a></li>
+		<li>Dial Me at <a href="tel:+1234567890">My phone num</a></li>
+	</ul>
+
+	<hr>
+
+	<h2>Contact Me at Other way:</h2>
+	<p>I will glad to hear you!</p>
+	<form action="https://httpbin.org/get" method="get">
+		<fieldset>
+			<legend>Personal Info:</legend>
+			<p>
+				<label for="firstName">First Name:</label>
+				<input type="text" name="firstName" id="firstName" placeholder="Your Name...." required
+					autocomplete="on">
+			</p>
+			<p>
+				<label for="lastName">Last Name:</label>
+				<input type="text" name="lastName" id="lastName" placeholder="Your Last Name...." required>
+			</p>
+			<p>
+				<label for="password">Password:</label>
+				<input type="password" name="password" id="password" placeholder="Your secret...." required>
+			</p>
+			<p>
+				<label for="phone">Phone Num:</label>
+				<input type="tel" name="phone" id="phone" required>
+			</p>
+			<p>
+				<label for="decade">Your Favorite Decade:</label>
+				<input type="number" name="decade" id="decade" min="1950" max="2020" step="5" value="1960">
+			</p>
+		</fieldset>
+		<p>
+		<fieldset>
+			<legend>Your Favourite Food</legend>
+			<input type="radio" name="pizza" id="pizza">
+			<label for="pizza">Pizza</label>
+
+			<p>
+				<input type="radio" name="taco" id="taco">
+				<label for="taco">Taco</label>
+			</p>
+			<p>
+				<input type="radio" name="otherFood" id="otherFood">
+				<label for="otherFood">Other</label>
+			</p>
+		</fieldset>
+		<p>
+		<fieldset>
+			<legend>Your Pets:</legend>
+			<p>
+				<input type="checkbox" id="dog" name="dog">
+				<label for="dog">Dog</label>
+			</p>
+			<p>
+				<input type="checkbox" id="cat" name="cat">
+				<label for="cat">Cat</label>
+			</p>
+			<p>
+				<input type="checkbox" id="otherPet" name="otherPet">
+				<label for="otherPet">otherPet</label>
+			</p>
+		</fieldset>
+		<p>
+		<fieldset>
+			<legend>Type Your Text:</legend>
+			<textarea name="message" id="message" rows="10" cols="30" placeholder="Message Me..."></textarea>
+			<p>
+				<button type="submit">Submit</button>
+				<button type="reset">Reset Your Form</button>
+			</p>
+		</fieldset>
+	</form>
+
+	<hr>
+
+	<a href="/">Back to Home</a>
+</body>
+
+</html>
